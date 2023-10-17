@@ -683,49 +683,55 @@
     display: flex;
     height: 50px;
 }
-.coupon-inputs input{
+
+.coupon-inputs input {
     border: 1px solid #ddd;
     border-right: 0;
     padding-left: 20px;
     width: 60%;
 }
-.coupon-inputs button{
+
+.coupon-inputs button {
     background-color: #d19c97;
     border: 0;
     width: 40%;
 }
-.Cart-Summary-wrapper .Cart-Summary-body{
+
+.Cart-Summary-wrapper .Cart-Summary-body {
     border: 1px solid #ddd;
     margin-top: 50px;
     padding: 20px;
 }
-.Cart-Summary-wrapper .Cart-Summary-Item{
-  display: flex;
-  justify-content: space-between;
+
+.Cart-Summary-wrapper .Cart-Summary-Item {
+    display: flex;
+    justify-content: space-between;
 }
-.Cart-Summary-wrapper .total-wrapper{
-   border: 1px solid #ddd;
-   border-top: none;
-   padding: 20px; 
+
+.Cart-Summary-wrapper .total-wrapper {
+    border: 1px solid #ddd;
+    border-top: none;
+    padding: 20px;
 }
-.Cart-Summary-wrapper .total-head{
+
+.Cart-Summary-wrapper .total-head {
     display: flex;
     justify-content: space-between;
     margin-bottom: 30px;
-    }
-    .total-head h4{
-        margin: 0;
-    }
-    .proceed-input button{
-        background-color: #d19c97;
-        border: 0;
-        padding: 20px;
-        width: 100%;
-        font-size: 16px;
-        cursor: pointer;
-    }
+}
 
-/* Cart summary style end */
+.total-head h4 {
+    margin: 0;
+}
+
+.proceed-input button {
+    background-color: #d19c97;
+    border: 0;
+    padding: 20px;
+    width: 100%;
+    font-size: 16px;
+    cursor: pointer;
+}
 
 @media only screen and (max-width:992px) {
     .search-products {
@@ -735,7 +741,6 @@
 
     .search-products input {
         flex: 100%;
-
     }
 
     .selected-products {
@@ -778,7 +783,6 @@
     .Category-item {
         width: 300px;
         margin-left: 0;
-
     }
 
     .img-paymenyts {
